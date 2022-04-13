@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+img{
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+}
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 42.5px;
+}
+a{
+    font-size: 23.5px;
+    font-weight: 500;
+    color: rgb(0, 216, 255);
+    margin-left: 96.5px;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 35px;
+}
+button{
+    width: 125px;
+    height: 50px;
+    background: cyan;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 136.5px;
+}
+button:hover{
+    background: #00ebeb;
+}
+@media screen and (max-width: 1024px) {
+    /* Tablet */
+    img{
+        width: 215px;
+        height: 215px;
+        margin-left: 65px;
+    }
+    h1{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin-right: 25px;
+    }
+    a{
+        font-size: 21.5px;
+        font-weight: 500;
+        color: rgb(0, 216, 255);
+        margin-left: 91.25px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        margin-right: 15px;
+    }
+    button{
+        width: 125px;
+        height: 50px;
+        background: cyan;
+        border: none;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-left: 123.5px;
+    }
+}
+@media screen and (max-width: 500px) {
+    /* Tablet */
+    img{
+        width: 172.5px;
+        height: 172.5px;
+        margin-left: 64.5px;
+    }
+    h1{
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        margin-right: 19.5px;
+    }
+    a{
+        font-size: 20px;
+        font-weight: 500;
+        color: rgb(0, 216, 255);
+        margin-left: 73.5px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 8.5px;
+    }
+    button{
+        width: 125px;
+        height: 50px;
+        background: cyan;
+        border: none;
+        text-align: center;
+        font-size: 17.5px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-left: 98.5px;
+    }
+}
